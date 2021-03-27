@@ -1,0 +1,154 @@
+Dependencies for Project 'Test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\main.c)(0x5FE74B32)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\inc\sys\delay.h)(0x50BF2544)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\usart.h)(0x5323CAD8)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (.\inc\led.h)(0x5FE473A3)
+I (.\inc\hc05.h)(0x5FE421EC)
+I (.\inc\usart2.h)(0x533CE8B2)
+I (.\inc\mpu6050.h)(0x5FE50AC8)
+I (.\inc\mpuiic.h)(0x5FE2E7DE)
+I (.\inc\eMPL\inv_mpu.h)(0x55331516)
+F (.\src\startup_stm32f10x_hd.s)(0x532BB242)(--cpu Cortex-M3 -g --apcs=interwork -IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\src\led.c)(0x5FC63C24)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\inc\led.h)(0x5FE473A3)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\hc05.c)(0x5FE421D8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\hc05.o --omf_browse .\objects\hc05.crf --depend .\objects\hc05.d)
+I (.\inc\sys\delay.h)(0x50BF2544)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\inc\sys\usart.h)(0x5323CAD8)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (.\inc\usart2.h)(0x533CE8B2)
+I (.\inc\hc05.h)(0x5FE421EC)
+I (.\inc\led.h)(0x5FE473A3)
+I (E:\KeiluVision5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+F (.\src\usart2.c)(0x533CE8A8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\usart2.o --omf_browse .\objects\usart2.crf --depend .\objects\usart2.d)
+I (.\inc\sys\delay.h)(0x50BF2544)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\inc\usart2.h)(0x533CE8B2)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+F (.\src\inv_mpu.c)(0x54CB84B4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\inv_mpu.o --omf_browse .\objects\inv_mpu.crf --depend .\objects\inv_mpu.d)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (.\inc\eMPL\inv_mpu.h)(0x55331516)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\inc\eMPL\inv_mpu_dmp_motion_driver.h)(0x50CA9A0C)
+I (.\inc\mpu6050.h)(0x5FE50AC8)
+I (.\inc\mpuiic.h)(0x5FE2E7DE)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\delay.h)(0x50BF2544)
+I (.\inc\sys\usart.h)(0x5323CAD8)
+I (.\inc\usart2.h)(0x533CE8B2)
+I (.\inc\led.h)(0x5FE473A3)
+F (.\src\inv_mpu_dmp_motion_driver.c)(0x536C5786)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\inv_mpu_dmp_motion_driver.o --omf_browse .\objects\inv_mpu_dmp_motion_driver.crf --depend .\objects\inv_mpu_dmp_motion_driver.d)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (.\inc\eMPL\inv_mpu.h)(0x55331516)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\inc\eMPL\inv_mpu_dmp_motion_driver.h)(0x50CA9A0C)
+I (.\inc\eMPL\dmpKey.h)(0x50CA9A0C)
+I (.\inc\eMPL\dmpmap.h)(0x50CA9A0C)
+I (.\inc\sys\usart.h)(0x5323CAD8)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\delay.h)(0x50BF2544)
+F (.\src\mpu6050.c)(0x5FE744FD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\mpu6050.o --omf_browse .\objects\mpu6050.crf --depend .\objects\mpu6050.d)
+I (.\inc\mpu6050.h)(0x5FE50AC8)
+I (.\inc\mpuiic.h)(0x5FE2E7DE)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\inc\eMPL\inv_mpu.h)(0x55331516)
+I (.\inc\sys\delay.h)(0x50BF2544)
+I (.\inc\sys\usart.h)(0x5323CAD8)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (.\inc\usart2.h)(0x533CE8B2)
+I (.\inc\led.h)(0x5FE473A3)
+F (.\src\mpuiic.c)(0x5FE2E61C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\mpuiic.o --omf_browse .\objects\mpuiic.crf --depend .\objects\mpuiic.d)
+I (.\inc\mpuiic.h)(0x5FE2E7DE)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\inc\sys\delay.h)(0x50BF2544)
+F (.\inc\led.h)(0x5FE473A3)()
+F (.\inc\hc05.h)(0x5FE421EC)()
+F (.\inc\usart2.h)(0x533CE8B2)()
+F (.\inc\mpu6050.h)(0x5FE50AC8)()
+F (.\inc\mpuiic.h)(0x5FE2E7DE)()
+F (.\src\usart.c)(0x532C1352)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (.\inc\sys\usart.h)(0x5323CAD8)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+F (.\src\sys.c)(0x52BC4396)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\delay.c)(0x5290AD54)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\inc\sys -I .\inc\eMPL-IE:\KeiluVision5\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IE:\KeiluVision5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\inc\sys\delay.h)(0x50BF2544)
+I (.\inc\sys\sys.h)(0x52C02CEC)
+I (.\inc\sys\stm32f10x.h)(0x4F1E2E3C)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (.\inc\sys\system_stm32f10x.h)(0x4F1E2E3C)

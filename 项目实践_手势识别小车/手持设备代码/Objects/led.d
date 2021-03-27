@@ -1,0 +1,9 @@
+.\objects\led.o: src\led.c
+.\objects\led.o: .\inc\led.h
+.\objects\led.o: .\inc\sys\sys.h
+.\objects\led.o: .\inc\sys\stm32f10x.h
+.\objects\led.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+.\objects\led.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\led.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\led.o: .\inc\sys\system_stm32f10x.h

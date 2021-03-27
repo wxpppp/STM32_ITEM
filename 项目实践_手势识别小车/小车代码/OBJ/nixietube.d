@@ -1,0 +1,11 @@
+..\obj\nixietube.o: ..\HARDWARE\NixieTube\nixietube.c
+..\obj\nixietube.o: ..\HARDWARE\NixieTube\nixietube.h
+..\obj\nixietube.o: ..\SYSTEM\sys\sys.h
+..\obj\nixietube.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\nixietube.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+..\obj\nixietube.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\nixietube.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\nixietube.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\nixietube.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\nixietube.o: ..\SYSTEM\delay\delay.h
+..\obj\nixietube.o: ..\INTERRUPT\ChangeMode\changemode.h

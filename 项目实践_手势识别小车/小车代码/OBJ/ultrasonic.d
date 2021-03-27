@@ -1,0 +1,14 @@
+..\obj\ultrasonic.o: ..\HARDWARE\Ultrasonic\ultrasonic.c
+..\obj\ultrasonic.o: ..\HARDWARE\Ultrasonic\ultrasonic.h
+..\obj\ultrasonic.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\ultrasonic.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+..\obj\ultrasonic.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ultrasonic.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\ultrasonic.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\ultrasonic.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\ultrasonic.o: ..\SYSTEM\usart\usart.h
+..\obj\ultrasonic.o: ..\SYSTEM\sys\sys.h
+..\obj\ultrasonic.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\ultrasonic.o: ..\SYSTEM\delay\delay.h
+..\obj\ultrasonic.o: ..\INTERRUPT\ChangeMode\changemode.h
+..\obj\ultrasonic.o: ..\TIME\Pwm\pwm.h

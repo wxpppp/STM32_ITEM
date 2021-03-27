@@ -1,0 +1,13 @@
+..\obj\remote.o: ..\HARDWARE\Remote\remote.c
+..\obj\remote.o: ..\HARDWARE\Remote\remote.h
+..\obj\remote.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\remote.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+..\obj\remote.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\remote.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\remote.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\remote.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\remote.o: ..\SYSTEM\sys\sys.h
+..\obj\remote.o: ..\SYSTEM\delay\delay.h
+..\obj\remote.o: ..\INTERRUPT\ChangeMode\changemode.h
+..\obj\remote.o: ..\TIME\Pwm\pwm.h
+..\obj\remote.o: ..\HARDWARE\Buzzer\buzzer.h

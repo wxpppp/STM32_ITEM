@@ -1,0 +1,13 @@
+..\obj\changemode.o: ..\INTERRUPT\ChangeMode\changemode.c
+..\obj\changemode.o: ..\INTERRUPT\ChangeMode\changemode.h
+..\obj\changemode.o: ..\SYSTEM\sys\sys.h
+..\obj\changemode.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\changemode.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+..\obj\changemode.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\changemode.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\changemode.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\changemode.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\changemode.o: ..\SYSTEM\delay\delay.h
+..\obj\changemode.o: ..\HARDWARE\Key\key.h
+..\obj\changemode.o: ..\HARDWARE\NixieTube\nixietube.h
+..\obj\changemode.o: ..\HARDWARE\Buzzer\buzzer.h

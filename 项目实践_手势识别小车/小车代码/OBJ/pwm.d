@@ -1,0 +1,9 @@
+..\obj\pwm.o: ..\TIME\Pwm\pwm.c
+..\obj\pwm.o: ..\TIME\Pwm\pwm.h
+..\obj\pwm.o: ..\SYSTEM\sys\sys.h
+..\obj\pwm.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\pwm.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+..\obj\pwm.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\pwm.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\pwm.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\pwm.o: ..\SYSTEM\sys\system_stm32f10x.h

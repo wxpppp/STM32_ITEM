@@ -1,0 +1,10 @@
+.\objects\mpuiic.o: src\mpuiic.c
+.\objects\mpuiic.o: .\inc\mpuiic.h
+.\objects\mpuiic.o: .\inc\sys\sys.h
+.\objects\mpuiic.o: .\inc\sys\stm32f10x.h
+.\objects\mpuiic.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+.\objects\mpuiic.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpuiic.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\mpuiic.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\mpuiic.o: .\inc\sys\system_stm32f10x.h
+.\objects\mpuiic.o: .\inc\sys\delay.h

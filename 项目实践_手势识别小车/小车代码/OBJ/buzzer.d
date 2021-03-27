@@ -1,0 +1,11 @@
+..\obj\buzzer.o: ..\HARDWARE\Buzzer\buzzer.c
+..\obj\buzzer.o: ..\HARDWARE\Buzzer\buzzer.h
+..\obj\buzzer.o: ..\SYSTEM\sys\sys.h
+..\obj\buzzer.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\buzzer.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+..\obj\buzzer.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\buzzer.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\buzzer.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\buzzer.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\buzzer.o: ..\SYSTEM\delay\delay.h
+..\obj\buzzer.o: ..\HARDWARE\NixieTube\nixietube.h

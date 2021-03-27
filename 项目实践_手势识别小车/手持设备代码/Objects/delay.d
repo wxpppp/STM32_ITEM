@@ -1,0 +1,9 @@
+.\objects\delay.o: src\delay.c
+.\objects\delay.o: .\inc\sys\delay.h
+.\objects\delay.o: .\inc\sys\sys.h
+.\objects\delay.o: .\inc\sys\stm32f10x.h
+.\objects\delay.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+.\objects\delay.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\delay.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\delay.o: .\inc\sys\system_stm32f10x.h

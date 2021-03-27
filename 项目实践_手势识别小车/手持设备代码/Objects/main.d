@@ -1,0 +1,17 @@
+.\objects\main.o: src\main.c
+.\objects\main.o: .\inc\sys\stm32f10x.h
+.\objects\main.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+.\objects\main.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\main.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\main.o: .\inc\sys\system_stm32f10x.h
+.\objects\main.o: .\inc\sys\delay.h
+.\objects\main.o: .\inc\sys\sys.h
+.\objects\main.o: .\inc\sys\usart.h
+.\objects\main.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: .\inc\led.h
+.\objects\main.o: .\inc\hc05.h
+.\objects\main.o: .\inc\usart2.h
+.\objects\main.o: .\inc\mpu6050.h
+.\objects\main.o: .\inc\mpuiic.h
+.\objects\main.o: .\inc\eMPL\inv_mpu.h

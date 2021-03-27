@@ -1,0 +1,12 @@
+..\obj\infrared.o: ..\HARDWARE\InfraRed\infrared.c
+..\obj\infrared.o: ..\HARDWARE\InfraRed\infrared.h
+..\obj\infrared.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\infrared.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+..\obj\infrared.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\infrared.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\infrared.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\infrared.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\infrared.o: ..\SYSTEM\delay\delay.h
+..\obj\infrared.o: ..\SYSTEM\sys\sys.h
+..\obj\infrared.o: ..\TIME\Pwm\pwm.h
+..\obj\infrared.o: ..\INTERRUPT\ChangeMode\changemode.h

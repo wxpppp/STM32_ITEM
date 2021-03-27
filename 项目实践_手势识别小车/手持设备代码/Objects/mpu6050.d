@@ -1,0 +1,16 @@
+.\objects\mpu6050.o: src\mpu6050.c
+.\objects\mpu6050.o: .\inc\mpu6050.h
+.\objects\mpu6050.o: .\inc\mpuiic.h
+.\objects\mpu6050.o: .\inc\sys\sys.h
+.\objects\mpu6050.o: .\inc\sys\stm32f10x.h
+.\objects\mpu6050.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cm3.h
+.\objects\mpu6050.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu6050.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\mpu6050.o: E:\KeiluVision5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\mpu6050.o: .\inc\sys\system_stm32f10x.h
+.\objects\mpu6050.o: .\inc\eMPL\inv_mpu.h
+.\objects\mpu6050.o: .\inc\sys\delay.h
+.\objects\mpu6050.o: .\inc\sys\usart.h
+.\objects\mpu6050.o: E:\KeiluVision5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mpu6050.o: .\inc\usart2.h
+.\objects\mpu6050.o: .\inc\led.h
